@@ -29,8 +29,8 @@
                 android:fontFamily="@font/nunitosans_extralight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:hint="@string/registro_nombre_usuario"
                 android:maxLength="20"
                 android:maxLines="1"
@@ -48,8 +48,8 @@
                 android:hint="@string/registro_nombres"
                 android:maxLength="20"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -64,8 +64,8 @@
                 android:hint="@string/registro_apellidos"
                 android:maxLength="20"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -82,8 +82,8 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:inputType="textEmailAddress"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -100,8 +100,8 @@
                 android:maxLength="25"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
 
         </android.support.design.widget.TextInputLayout>
@@ -118,8 +118,8 @@
                 android:maxLength="30"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -134,8 +134,8 @@
                 android:hint="@string/registro_ciudad"
                 android:maxLength="30"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -154,8 +154,8 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
 
         </android.support.design.widget.TextInputLayout>
@@ -175,8 +175,8 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
 
         </android.support.design.widget.TextInputLayout>
