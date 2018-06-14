@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_login">Computación en el cliente web</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Nombre de Usuario</string>
+    <string name="olvidoClave">Olvidé mi Contraseña</string>
+    <string name="creacionCuenta">Creación de Cuenta</string>
+    <string name="mas_informacion">Más Información y contacto ver aquí</string>
+
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to registro -->
+    <string name="registro_nombre_usuario">Nombre de Usuario</string>
+    <string name="registro_nombres">Nombres</string>
+    <string name="registro_apellidos">Apellidos</string>
+    <string name="registro_pais">Pais</string>
+    <string name="registro_correo_electronico">Correo Electrónicos</string>
+    <string name="registro_region">Región - Estado - Departamento</string>
+    <string name="registro_ciudad">Ciudad</string>
+    <string name="registro_contraseña">Contraseña</string>
+    <string name="registro_repite_contraseña">Repite la Contraseña</string>
+    <string name="registro_crear">Crear</string>
+    <string name="registro_cancelar">Cancelar</string>
+    <string name="registro_mas_informacion">Más Información y contacto ver aquí</string>
+
+
+    <!-- Strings related to recordar usuario -->
+    <string name="recordar_nombre_usuario">Nombre de Usuario</string>
+    <string name="recordar_correo_electronico">Correo Electrónico</string>
+    <string name="recordar_aceptar">Aceptar</string>
+    <string name="recordar_cancelar">Cancelar</string>
+</resources>
