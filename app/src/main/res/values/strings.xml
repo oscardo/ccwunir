@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name"></string>
-    <string name="title_activity_login">Computación en el cliente web</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Nombre de Usuario</string>
-    <string name="olvidoClave">Olvidé mi Contraseña</string>
-    <string name="creacionCuenta">Creación de Cuenta</string>
-    <string name="mas_informacion">Más Información y contacto ver aquí</string>
+    <string name="login_titulo_app">Computación en el cliente web</string>
+    <string name="login_nombreusuario">Nombre de Usuario</string>
+    <string name="login_olvidoClave">Olvidé mi Contraseña</string>
+    <string name="login_creacionCuenta">Creación de Cuenta</string>
+    <string name="login_mas_informacion">Más Información y contacto ver aquí</string>
 
-    <string name="prompt_password">Contraseña</string>
-    <string name="action_sign_in">Ingresar</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="login_entrar">Ingresar</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -32,7 +32,6 @@
     <string name="registro_crear">Crear</string>
     <string name="registro_cancelar">Cancelar</string>
     <string name="registro_mas_informacion">Más Información y contacto ver aquí</string>
-
 
     <!-- Strings related to recordar usuario -->
     <string name="recordar_nombre_usuario">Nombre de Usuario</string>
