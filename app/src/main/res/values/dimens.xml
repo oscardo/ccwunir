@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="actividad_horizontal_margen_splash">0pd</dimen>
+    <dimen name="actividad_horizontal_margen_splash">0dp</dimen>
     <dimen name="actividad_vertical_margin_splash">0dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="actividad_horizontal_margen">16dp</dimen>
