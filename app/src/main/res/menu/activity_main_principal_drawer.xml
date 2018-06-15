@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+
+        <item
+            android:id="@+id/nav_semana5"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Semana 5" />
+
+        <item
+            android:id="@+id/nav_semana6"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Semana 6" />
+
+        <item
+            android:id="@+id/nav_semana7"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Semana 7" />
+
+        <item
+            android:id="@+id/nav_semana8"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Semana 8" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_semana1"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 1" />
+            <item
+                android:id="@+id/nav_semana2"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 2" />
+            <item
+                android:id="@+id/nav_semana3"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 3" />
+            <item
+                android:id="@+id/nav_semana4"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 4" />
+            <item
+                android:id="@+id/nav_semana55"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 5" />
+            <item
+                android:id="@+id/nav_semana66"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 6" />
+        </menu>
+    </item>
+
+    <item android:title="Test">
+        <menu>
+            <item
+                android:id="@+id/nav_test1"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_test2"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_test3"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 1" />
+            <item
+                android:id="@+id/nav_test4"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 2" />
+            <item
+                android:id="@+id/nav_test5"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 3" />
+            <item
+                android:id="@+id/nav_test6"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 4" />
+            <item
+                android:id="@+id/nav_test7"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 5" />
+            <item
+                android:id="@+id/nav_test8"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="semana 6" />
+        </menu>
+    </item>
+</menu>
