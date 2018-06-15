@@ -31,8 +31,8 @@
             android:maxLength="30"
             android:inputType="textEmailAddress"
             android:maxLines="1"
-            android:layout_marginLeft="@dimen/izquierda"
-            android:layout_marginRight="@dimen/derecha"
+            android:layout_marginLeft="@dimen/margen_izquierda"
+            android:layout_marginRight="@dimen/margen_derecha"
             android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
 
