@@ -80,17 +80,57 @@ public class MainPrincipalActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_estudio_semana_1) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_estudio_semana_2) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_estudio_semana_3) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_estudio_semana_4) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_estudio_semana_5) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_estudio_semana_6) {
+
+        } else if (id == R.id.nav_estudio_semana_7) {
+
+        } else if (id == R.id.nav_estudio_semana_8) {
+
+        }
+
+        if (id == R.id.nav_video_semana_1) {
+            // Handle the camera action
+        } else if (id == R.id.nav_video_semana_2) {
+
+        } else if (id == R.id.nav_video_semana_3) {
+
+        } else if (id == R.id.nav_video_semana_4) {
+
+        } else if (id == R.id.nav_video_semana_5) {
+
+        } else if (id == R.id.nav_video_semana_6) {
+
+        } else if (id == R.id.nav_video_semana_7) {
+
+        } else if (id == R.id.nav_video_semana_8) {
+
+        }
+
+        if (id == R.id.nav_test_semana_1) {
+            // Handle the camera action
+        } else if (id == R.id.nav_test_semana_2) {
+
+        } else if (id == R.id.nav_test_semana_3) {
+
+        } else if (id == R.id.nav_test_semana_4) {
+
+        } else if (id == R.id.nav_test_semana_5) {
+
+        } else if (id == R.id.nav_test_semana_6) {
+
+        } else if (id == R.id.nav_test_semana_7) {
+
+        } else if (id == R.id.nav_test_semana_8) {
 
         }
 

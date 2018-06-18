@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_izquierda">16</dimen>
+    <dimen name="margen_derecha">16</dimen>
+    <dimen name="actividad_vertical_margen">16</dimen>
+    <dimen name="actividad_horizontal_margen">16</dimen>
+</resources>

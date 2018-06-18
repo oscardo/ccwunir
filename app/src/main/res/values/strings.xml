@@ -56,5 +56,33 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
+    <!-- Strings related to menú izquierda -->
+    <string name="estudio_1">Semana 1</string>
+    <string name="estudio_2">Semana 2</string>
+    <string name="estudio_3">Semana 3</string>
+    <string name="estudio_4">Semana 4</string>
+    <string name="estudio_5">Semana 5</string>
+    <string name="estudio_6">Semana 6</string>
+    <string name="estudio_7">Semana 7</string>
+    <string name="estudio_8">Semana 8</string>
 
+    <string name="video_1">Video 1</string>
+    <string name="video_2">Video 2</string>
+    <string name="video_3">Video 3</string>
+    <string name="video_4">Video 4</string>
+    <string name="video_5">Video 5</string>
+    <string name="video_6">Video 6</string>
+    <string name="video_7">Video 7</string>
+    <string name="video_8">Video 8</string>
+
+    <string name="test_1">Test 1</string>
+    <string name="test_2">Test 2</string>
+    <string name="test_3">Test 3</string>
+    <string name="test_4">Test 4</string>
+    <string name="test_5">Test 5</string>
+    <string name="test_6">Test 6</string>
+    <string name="test_7">Test 7</string>
+    <string name="test_8">Test 8</string>
+    
 </resources>
+
