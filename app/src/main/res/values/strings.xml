@@ -50,11 +50,10 @@
 
     <string name="action_example">Example action</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_main_principal">MainPrincipalActivity</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_main_principal">Computación en el cliente Web</string>
+    <string name="nav_header_title">Android</string>
+    <string name="nav_header_subtitle">oscar.ortiz@gmail.com</string>
+    <string name="nav_header_desc">Cabecera de Navegación</string>
 
     <!-- Strings related to menú izquierda -->
     <string name="estudio_1">Semana 1</string>
@@ -83,6 +82,15 @@
     <string name="test_6">Test 6</string>
     <string name="test_7">Test 7</string>
     <string name="test_8">Test 8</string>
-    
+
+    <string name="salir_app">Salir App</string>
+
+    <!-- Strings related to menú derecha -->
+    <string name="menu_derecha_configuracion">Configuración</string>
+    <string name="menu_derecha_politica">Política</string>
+    <string name="menu_derecha_busqueda">Búsqueda</string>
+    <string name="menu_derecha_acerca">Acerca de ...</string>
+    <string name="menu_derecha_universidad">Información UNIR</string>
+
 </resources>
 

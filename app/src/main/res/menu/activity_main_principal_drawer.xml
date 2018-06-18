@@ -122,4 +122,9 @@
                 android:title="semana 8" />
         </menu>
     </item>
+
+    <item android:id="@+id/nav_salir"
+        android:icon="@drawable/salir_24"
+        android:title="@string/salir_app"></item>
+
 </menu>
