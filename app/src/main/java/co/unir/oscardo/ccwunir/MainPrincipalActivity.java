@@ -90,6 +90,7 @@ public class MainPrincipalActivity extends AppCompatActivity
 
         if (id == R.id.nav_estudio_semana_1) {
             // Handle the camera action
+
         } else if (id == R.id.nav_estudio_semana_2) {
 
         } else if (id == R.id.nav_estudio_semana_3) {
