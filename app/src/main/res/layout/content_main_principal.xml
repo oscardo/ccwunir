@@ -8,4 +8,10 @@
     tools:context=".MainPrincipalActivity"
     tools:showIn="@layout/app_bar_main_principal">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola Soy Oscar" />
+
 </android.support.constraint.ConstraintLayout>
