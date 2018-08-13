@@ -1,13 +1,9 @@
 package co.unir.oscardo.ccwunir;
 
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.util.AndroidException;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,12 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
-
-import java.io.File;
-import java.io.IOException;
 
 import co.unir.oscardo.ccwunir.Constantes.Publicos;
+import co.unir.oscardo.ccwunir.descarga_firebase.Consulta_Firebase;
 
 public class MainPrincipalActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -47,7 +40,9 @@ public class MainPrincipalActivity extends AppCompatActivity
             }
         });
 
-        
+        Consulta_Firebase sitio = new Consulta_Firebase();
+         sitio.Consulta();
+
         /*
         File file = new File(Semana1);
         File pdfFile = new File("res/raw/pdf/semana1.pdf");

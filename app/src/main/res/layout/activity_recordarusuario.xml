@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recordar_UsuarioActivity">
+    tools:context=".Recordar_UsuarioActivity"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
 
     <LinearLayout
         android:id="@+id/ll_marcoespecifico"
@@ -29,7 +32,6 @@
             android:layout_height="wrap_content"
             android:hint="@string/recordar_correo_electronico"
             android:maxLength="30"
-            android:inputType="textEmailAddress"
             android:maxLines="1"
             android:layout_marginLeft="@dimen/margen_izquierda"
             android:layout_marginRight="@dimen/margen_derecha"
@@ -41,7 +43,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorBoton"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margen_derecha"
+        android:textColor="@color/colorBoton_letras"
+        android:fontFamily="@font/nunitosans_bold"
         android:text="@string/recordar_aceptar" />
 
     <Button
@@ -51,7 +55,7 @@
         android:background="@color/colorBoton"
         android:textColor="@color/colorBoton_letras"
         android:fontFamily="@font/nunitosans_bold"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margen_derecha"
         android:text="@string/recordar_cancelar" />
     </LinearLayout>
 
