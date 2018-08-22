@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -40,8 +43,8 @@ public class MainPrincipalActivity extends AppCompatActivity
             }
         });
 
-        Consulta_Firebase sitio = new Consulta_Firebase();
-         sitio.Consulta();
+        // Consulta_Firebase sitio = new Consulta_Firebase();
+        // sitio.Consulta();
 
         /*
         File file = new File(Semana1);
@@ -123,64 +126,62 @@ public class MainPrincipalActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        // 5 7 8 CON ERRORES
         int id = item.getItemId();
-
+        FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_estudio_semana_1) {
-            // Handle the camera action
-            View view;
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario()).commit();
         } else if (id == R.id.nav_estudio_semana_2) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario2Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_3) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario3Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_4) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario4Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_5) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario5Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_6) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario6Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_7) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario7Fragment()).commit();
         } else if (id == R.id.nav_estudio_semana_8) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario8Fragment()).commit();
         }
 
         if (id == R.id.nav_video_semana_1) {
-            // Handle the camera action
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new VideoFragment()).commit();
         } else if (id == R.id.nav_video_semana_2) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video2Fragment()).commit();
         } else if (id == R.id.nav_video_semana_3) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video3Fragment()).commit();
         } else if (id == R.id.nav_video_semana_4) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video4Fragment()).commit();
         } else if (id == R.id.nav_video_semana_5) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video5Fragment()).commit();
         } else if (id == R.id.nav_video_semana_6) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video6Fragment()).commit();
         } else if (id == R.id.nav_video_semana_7) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video7Fragment()).commit();
         } else if (id == R.id.nav_video_semana_8) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Video8Fragment()).commit();
         }
 
         if (id == R.id.nav_test_semana_1) {
-            // Handle the camera action
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new TestFragment()).commit();
         } else if (id == R.id.nav_test_semana_2) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test2Fragment()).commit();
         } else if (id == R.id.nav_test_semana_3) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test3Fragment()).commit();
         } else if (id == R.id.nav_test_semana_4) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test4Fragment()).commit();
         } else if (id == R.id.nav_test_semana_5) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test5Fragment()).commit();
         } else if (id == R.id.nav_test_semana_6) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test6Fragment()).commit();
         } else if (id == R.id.nav_test_semana_7) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test7Fragment()).commit();
         } else if (id == R.id.nav_test_semana_8) {
-
+            fm.beginTransaction().replace(R.id.Contenedor_Central, new Test8Fragment()).commit();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
