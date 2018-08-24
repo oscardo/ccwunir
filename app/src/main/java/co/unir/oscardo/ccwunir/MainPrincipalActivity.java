@@ -126,7 +126,6 @@ public class MainPrincipalActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        // 5 7 8 CON ERRORES estudio
         int id = item.getItemId();
         FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_estudio_semana_1) {
@@ -146,7 +145,7 @@ public class MainPrincipalActivity extends AppCompatActivity
         } else if (id == R.id.nav_estudio_semana_8) {
             fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario8Fragment()).commit();
         }
-
+        // TODO errores en la pantalla: 6,
         if (id == R.id.nav_video_semana_1) {
             fm.beginTransaction().replace(R.id.Contenedor_Central, new VideoFragment()).commit();
         } else if (id == R.id.nav_video_semana_2) {

@@ -1,6 +1,5 @@
 package co.unir.oscardo.ccwunir;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -20,8 +19,6 @@ import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 import co.unir.oscardo.ccwunir.Constantes.Publicos;
-import co.unir.oscardo.ccwunir.youtube.clase_youtube;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,7 +57,7 @@ public class VideoFragment extends Fragment{
             }
         });
         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-        transaction.add(R.id.youtube_fragment, youTubePlayerFragment).commit();
+        transaction.add(R.id.fg_video_1, youTubePlayerFragment).commit();
         return view;
     }
 }
