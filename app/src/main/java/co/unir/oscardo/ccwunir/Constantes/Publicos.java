@@ -6,4 +6,6 @@ public final class Publicos {
     public static String VIDEO = "/res/Documentacion/video/";
     public static String TEST = "/res/Documentacion/test/";
 
+
+    public static String Clave_Youtube = "AIzaSyDaBo_6u3eK_uzWCMCq3Ge4yb4gllW-5YE";
 }
