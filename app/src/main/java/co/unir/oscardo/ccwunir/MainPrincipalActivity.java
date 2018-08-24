@@ -23,9 +23,6 @@ import co.unir.oscardo.ccwunir.descarga_firebase.Consulta_Firebase;
 public class MainPrincipalActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    //D:\Android\material\ccwunir\app\src\main\res\Documentacion\pdf
-    private static String Semana1 = Environment.getExternalStorageDirectory().getPath()+ Publicos.PDF + "semana1.pdf";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,35 +39,6 @@ public class MainPrincipalActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-
-        // Consulta_Firebase sitio = new Consulta_Firebase();
-        // sitio.Consulta();
-
-        /*
-        File file = new File(Semana1);
-        File pdfFile = new File("res/raw/pdf/semana1.pdf");
-
-        if (file.exists()) {
-            Uri path = Uri.fromFile(file);
-            Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setDataAndType(path, "application/pdf");
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            try {
-                startActivity(intent);
-            }
-            catch (ActivityNotFoundException e) {
-                Toast.makeText(this,
-
-                        "No Application Available to View PDF",
-                        Toast.LENGTH_SHORT).show();
-            }
-        }else{
-            Toast.makeText(this,
-                    "Error en cargar PDF",
-                    Toast.LENGTH_LONG).show();
-        }
-
-        */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -91,7 +59,13 @@ public class MainPrincipalActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
+    // TODO: hace falta revisar el menu inicial
+    // TODO: hace falta revisar como se hace el guia inicial
+    // TODO: hace falta documentar todo el código
+    // TODO: hace falta revisar como se hace la guia inicial
+    // TODO: hace falta el video de apoyo al trabajo
+    // TODO: hace falta el documento de apoyo al trabajo
+    // TODO: hace falta arreglar la parte web del proyecto
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -105,7 +79,11 @@ public class MainPrincipalActivity extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        // TODO: hace falta la configuracion
+        // TODO: hace falta la acerca
+        // TODO: hace falta la busqueda
+        // TODO: hace falta la politicas
+        // TODO: hace falta la salir
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_configuracion) {
             return true;
@@ -126,6 +104,8 @@ public class MainPrincipalActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        // TODO: Hace falta el material para la semana o tema 7
+        // TODO: Hace falta el material para la semana o tema 8
         int id = item.getItemId();
         FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_estudio_semana_1) {
@@ -145,7 +125,9 @@ public class MainPrincipalActivity extends AppCompatActivity
         } else if (id == R.id.nav_estudio_semana_8) {
             fm.beginTransaction().replace(R.id.Contenedor_Central, new Temario8Fragment()).commit();
         }
-        // TODO errores en la pantalla: 6,
+
+        // TODO: hace falta el video de la semana 7
+        // TODO: hace falta el video de la semana 8
         if (id == R.id.nav_video_semana_1) {
             fm.beginTransaction().replace(R.id.Contenedor_Central, new VideoFragment()).commit();
         } else if (id == R.id.nav_video_semana_2) {
@@ -164,6 +146,13 @@ public class MainPrincipalActivity extends AppCompatActivity
             fm.beginTransaction().replace(R.id.Contenedor_Central, new Video8Fragment()).commit();
         }
 
+        // TODO: Hace falta JSON
+        // TODO: Hace falta revision de las versiones
+        // TODO: Hace falta usuarios, recordar contraseña, login
+        // TODO: Hace falta mejoras continuas
+        // TODO: Hace falta test
+        // TODO: Hace falta ver 7
+        // TODO: Hace falta ver 8
         if (id == R.id.nav_test_semana_1) {
             fm.beginTransaction().replace(R.id.Contenedor_Central, new TestFragment()).commit();
         } else if (id == R.id.nav_test_semana_2) {
