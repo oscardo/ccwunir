@@ -126,7 +126,7 @@ public class MainPrincipalActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        // 5 7 8 CON ERRORES
+        // 5 7 8 CON ERRORES estudio
         int id = item.getItemId();
         FragmentManager fm = getSupportFragmentManager();
         if (id == R.id.nav_estudio_semana_1) {

@@ -41,5 +41,6 @@ dependencies {
 
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-
+    // PDFViewer
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 }
