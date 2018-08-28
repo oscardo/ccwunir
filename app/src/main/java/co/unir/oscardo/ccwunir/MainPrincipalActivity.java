@@ -111,7 +111,6 @@ public class MainPrincipalActivity extends AppCompatActivity
         } else if(id == R.id.action_universidad){
                 fm.beginTransaction().replace(R.id.Contenedor_Central, new Universidad()).commit();
         } else if(id == R.id.action_salir){
-            //fm.beginTransaction().replace(R.id.action_salir, new Salir()).commit();
             Intent Salir = new Intent(this, Salir.class);
             //aqui cerrar sesion
             startActivity(Salir);
