@@ -15,6 +15,7 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <!--
     android:icon="@mipmap/ic_launcher"
     android:roundIcon="@mipmap/ic_launcher_round"
@@ -35,22 +36,22 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/login_titulo_app"></activity>
-        <activity android:name=".RegistroUsuarioActivity"></activity>
+            android:label="@string/login_titulo_app" />
+        <activity android:name=".RegistroUsuarioActivity" />
         <activity android:name=".Recordar_UsuarioActivity" />
         <activity
             android:name=".ItemListActivity"
             android:label="@string/title_item_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ItemDetailActivity"
             android:label="@string/title_item_detail"
             android:parentActivityName=".ItemListActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainPrincipalActivity"
             android:label="@string/title_activity_main_principal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -63,6 +64,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity android:name=".Salir"></activity>
     </application>
 
 </manifest>

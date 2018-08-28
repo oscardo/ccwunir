@@ -38,7 +38,7 @@ public class Video2Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_video2, container, false);
 		YouTubePlayerSupportFragment youTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
-        youTubePlayerFragment.initialize(Publicos.Clave_Youtube, new YouTubePlayer.OnInitializedListener() {
+        youTubePlayerFragment.initialize(Publicos.CLAVE_YOUTUBE, new YouTubePlayer.OnInitializedListener() {
             public YouTubePlayer YPlayer;
 
             @Override
