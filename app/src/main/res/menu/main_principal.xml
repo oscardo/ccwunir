@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_configuracion"
+        android:orderInCategory="100"
+        android:title="@string/menu_derecha_configuracion"
+        android:icon="@drawable/configuracion"
+         />
+
+    <item
+        android:id="@+id/action_politica"
+        android:orderInCategory="200"
+        android:title="@string/menu_derecha_politica"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_busqueda"
+        android:orderInCategory="300"
+        android:title="@string/menu_derecha_busqueda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_acerca"
+        android:orderInCategory="400"
+        android:title="@string/menu_derecha_acerca"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_universidad"
+        android:orderInCategory="500"
+        android:title="@string/menu_derecha_universidad"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_salir"
+        android:orderInCategory="600"
+        android:title="@string/salir_app"
+        app:showAsAction="never" />
+
+</menu>

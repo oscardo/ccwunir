@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name"></string>
-    <string name="title_activity_login">Computación en el cliente web</string>
+    <string name="app_name">CCW - UNIR</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Nombre de Usuario</string>
-    <string name="olvidoClave">Olvidé mi Contraseña</string>
-    <string name="creacionCuenta">Creación de Cuenta</string>
-    <string name="mas_informacion">Más Información y contacto ver aquí</string>
+    <string name="login_titulo_app">Computación en el cliente web</string>
+    <string name="login_nombreusuario">Nombre de Usuario</string>
+    <string name="login_olvidoClave">Olvidé mi Contraseña</string>
+    <string name="login_creacionCuenta">Creación de Cuenta</string>
+    <string name="login_mas_informacion">Más Información y contacto ver aquí</string>
 
-    <string name="prompt_password">Contraseña</string>
-    <string name="action_sign_in">Ingresar</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="login_entrar">Ingresar</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -33,10 +33,68 @@
     <string name="registro_cancelar">Cancelar</string>
     <string name="registro_mas_informacion">Más Información y contacto ver aquí</string>
 
-
     <!-- Strings related to recordar usuario -->
     <string name="recordar_nombre_usuario">Nombre de Usuario</string>
     <string name="recordar_correo_electronico">Correo Electrónico</string>
     <string name="recordar_aceptar">Aceptar</string>
     <string name="recordar_cancelar">Cancelar</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_central">Computación en el cliente Web</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="title_activity_main_principal">Computación en el cliente Web</string>
+    <string name="nav_header_title">Android</string>
+    <string name="nav_header_subtitle">oscar.ortiz@gmail.com</string>
+    <string name="nav_header_desc">Cabecera de Navegación</string>
+
+    <!-- Strings related to menú izquierda -->
+    <string name="estudio_1">Semana 1</string>
+    <string name="estudio_2">Semana 2</string>
+    <string name="estudio_3">Semana 3</string>
+    <string name="estudio_4">Semana 4</string>
+    <string name="estudio_5">Semana 5</string>
+    <string name="estudio_6">Semana 6</string>
+    <string name="estudio_7">Semana 7</string>
+    <string name="estudio_8">Semana 8</string>
+
+    <string name="video_1">Video 1</string>
+    <string name="video_2">Video 2</string>
+    <string name="video_3">Video 3</string>
+    <string name="video_4">Video 4</string>
+    <string name="video_5">Video 5</string>
+    <string name="video_6">Video 6</string>
+    <string name="video_7">Video 7</string>
+    <string name="video_8">Video 8</string>
+
+    <string name="test_1">Test 1</string>
+    <string name="test_2">Test 2</string>
+    <string name="test_3">Test 3</string>
+    <string name="test_4">Test 4</string>
+    <string name="test_5">Test 5</string>
+    <string name="test_6">Test 6</string>
+    <string name="test_7">Test 7</string>
+    <string name="test_8">Test 8</string>
+
+    <string name="salir_app">Salir App</string>
+
+    <!-- Strings related to menú derecha -->
+    <string name="menu_derecha_configuracion">Configuración</string>
+    <string name="menu_derecha_politica">Política</string>
+    <string name="menu_derecha_busqueda">Búsqueda</string>
+    <string name="menu_derecha_acerca">Acerca de ...</string>
+    <string name="menu_derecha_universidad">Información UNIR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>
+

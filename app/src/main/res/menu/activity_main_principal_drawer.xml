@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--
+    <group android:checkableBehavior="single">
+    </group>
+        -->
+    <item android:title="Estudio">
+        <menu>
+        <item
+            android:id="@+id/nav_estudio_semana_1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_1" />
+        <item
+            android:id="@+id/nav_estudio_semana_2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_2" />
+        <item
+            android:id="@+id/nav_estudio_semana_3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_3" />
+        <item
+            android:id="@+id/nav_estudio_semana_4"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_4" />
+
+        <item
+            android:id="@+id/nav_estudio_semana_5"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_5" />
+
+        <item
+            android:id="@+id/nav_estudio_semana_6"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_6" />
+
+        <item
+            android:id="@+id/nav_estudio_semana_7"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_7" />
+
+        <item
+            android:id="@+id/nav_estudio_semana_8"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/estudio_8" />
+        </menu>
+    </item>
+
+
+    <item android:title="Videos">
+        <menu>
+            <item
+                android:id="@+id/nav_video_semana_1"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_1" />
+            <item
+                android:id="@+id/nav_video_semana_2"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_2" />
+            <item
+                android:id="@+id/nav_video_semana_3"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_3" />
+            <item
+                android:id="@+id/nav_video_semana_4"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_4" />
+            <item
+                android:id="@+id/nav_video_semana_5"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_5" />
+            <item
+                android:id="@+id/nav_video_semana_6"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_6" />
+            <item
+                android:id="@+id/nav_video_semana_7"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_7" />
+            <item
+                android:id="@+id/nav_video_semana_8"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/video_8" />
+        </menu>
+    </item>
+
+    <item android:title="Test">
+        <menu>
+            <item
+                android:id="@+id/nav_test_semana_1"
+                android:icon="@drawable/event_24"
+                android:title="Semana 1" />
+            <item
+                android:id="@+id/nav_test_semana_2"
+                android:icon="@drawable/event_24"
+                android:title="Semana 2" />
+            <item
+                android:id="@+id/nav_test_semana_3"
+                android:icon="@drawable/event_24"
+                android:title="semana 3" />
+            <item
+                android:id="@+id/nav_test_semana_4"
+                android:icon="@drawable/event_24"
+                android:title="semana 4" />
+            <item
+                android:id="@+id/nav_test_semana_5"
+                android:icon="@drawable/event_24"
+                android:title="semana 5" />
+            <item
+                android:id="@+id/nav_test_semana_6"
+                android:icon="@drawable/event_24"
+                android:title="semana 6" />
+            <item
+                android:id="@+id/nav_test_semana_7"
+                android:icon="@drawable/event_24"
+                android:title="semana 7" />
+            <item
+                android:id="@+id/nav_test_semana_8"
+                android:icon="@drawable/event_24"
+                android:title="semana 8" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/nav_salir"
+        android:icon="@drawable/salir_24"
+        android:title="@string/salir_app"></item>
+
+</menu>

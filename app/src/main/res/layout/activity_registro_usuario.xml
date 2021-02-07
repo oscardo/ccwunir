@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cl_marcogeneral"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegistroUsuarioActivity">
-
 
     <LinearLayout
         android:id="@+id/ll_marcoespecifico"
@@ -29,8 +27,8 @@
                 android:fontFamily="@font/nunitosans_extralight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:hint="@string/registro_nombre_usuario"
                 android:maxLength="20"
                 android:maxLines="1"
@@ -48,8 +46,8 @@
                 android:hint="@string/registro_nombres"
                 android:maxLength="20"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -64,8 +62,8 @@
                 android:hint="@string/registro_apellidos"
                 android:maxLength="20"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -82,8 +80,8 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:inputType="textEmailAddress"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -100,8 +98,8 @@
                 android:maxLength="25"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
 
         </android.support.design.widget.TextInputLayout>
@@ -118,8 +116,8 @@
                 android:maxLength="30"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -134,8 +132,8 @@
                 android:hint="@string/registro_ciudad"
                 android:maxLength="30"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
@@ -154,8 +152,8 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
 
         </android.support.design.widget.TextInputLayout>
@@ -175,8 +173,8 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:layout_marginLeft="@dimen/izquierda"
-                android:layout_marginRight="@dimen/derecha"
+                android:layout_marginLeft="@dimen/margen_izquierda"
+                android:layout_marginRight="@dimen/margen_derecha"
                 android:singleLine="true" />
 
         </android.support.design.widget.TextInputLayout>
@@ -186,6 +184,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorBoton"
+            android:textColor="@color/colorBoton_letras"
+            android:fontFamily="@font/nunitosans_bold"
             android:layout_marginTop="16dp"
             android:text="@string/registro_crear" />
 
@@ -194,6 +194,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorBoton"
+            android:textColor="@color/colorBoton_letras"
+            android:fontFamily="@font/nunitosans_bold"
             android:layout_marginTop="16dp"
             android:text="@string/registro_cancelar" />
 
@@ -204,9 +206,6 @@
             android:textAlignment="center"
             android:layout_gravity="center"
             android:text="@string/registro_mas_informacion" />
-
     </LinearLayout>
-
-
 
 </android.support.constraint.ConstraintLayout>
